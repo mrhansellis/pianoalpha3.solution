@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Media;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -36,6 +38,9 @@ namespace PianoAlpha3
         private void C_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             C.Fill = new SolidColorBrush(Colors.Gray);
+            /*Stream cNote = (Stream)Properties.Resources.ResourceManager.GetObject("C");*/
+            SoundPlayer playNote = new SoundPlayer(Properties.Resources.C);
+            playNote.Play();
         }
 
         private void C_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -46,6 +51,8 @@ namespace PianoAlpha3
         private void F_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             F.Fill = new SolidColorBrush(Colors.Gray);
+            SoundPlayer playNote = new SoundPlayer(Properties.Resources.F);
+            playNote.Play();
         }
 
         private void F_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -56,6 +63,8 @@ namespace PianoAlpha3
         private void G_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             G.Fill = new SolidColorBrush(Colors.Gray);
+            SoundPlayer playNote = new SoundPlayer(Properties.Resources.G);
+            playNote.Play();
         }
 
         private void G_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -65,6 +74,8 @@ namespace PianoAlpha3
         private void A_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             A.Fill = new SolidColorBrush(Colors.Gray);
+            SoundPlayer playNote = new SoundPlayer(Properties.Resources.A);
+            playNote.Play();
         }
 
         private void A_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -75,6 +86,8 @@ namespace PianoAlpha3
         private void D_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             D.Fill = new SolidColorBrush(Colors.Gray);
+            SoundPlayer playNote = new SoundPlayer(Properties.Resources.D);
+            playNote.Play();
         }
 
         private void D_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -85,6 +98,8 @@ namespace PianoAlpha3
         private void E_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             E.Fill = new SolidColorBrush(Colors.Gray);
+            SoundPlayer playNote = new SoundPlayer(Properties.Resources.E);
+            playNote.Play();
         }
 
         private void E_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -99,15 +114,17 @@ namespace PianoAlpha3
 
         private void B_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            highlightCircle(B, false);
+            B.Fill = new SolidColorBrush(Colors.Gray);
+            SoundPlayer playNote = new SoundPlayer(Properties.Resources.B);
+            playNote.Play();
         }
 
         private void B_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            unHighlightCircle(B, false);
+            B.Fill = new SolidColorBrush(Colors.Orange);
         }
 
-        private void highlightCircle(Ellipse circ, bool isClicked)
+        /*private void highlightCircle(Ellipse circ, bool isClicked)
         {
             if (!isClicked)
                 circ.Fill = new SolidColorBrush(Colors.Yellow);
@@ -121,6 +138,6 @@ namespace PianoAlpha3
                 circ.Fill = new SolidColorBrush(Colors.Orange);
             else
                 circ.Fill = new SolidColorBrush(Colors.Yellow);
-        }
+        }*/
     }
 }

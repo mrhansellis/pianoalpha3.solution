@@ -63,81 +63,63 @@ namespace PianoAlpha3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _50 {
+        internal static System.IO.UnmanagedMemoryStream A {
             get {
-                return ResourceManager.GetStream("50", resourceCulture);
+                return ResourceManager.GetStream("A", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _51 {
+        internal static System.IO.UnmanagedMemoryStream B {
             get {
-                return ResourceManager.GetStream("51", resourceCulture);
+                return ResourceManager.GetStream("B", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _52 {
+        internal static System.IO.UnmanagedMemoryStream C {
             get {
-                return ResourceManager.GetStream("52", resourceCulture);
+                return ResourceManager.GetStream("C", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _53 {
+        internal static System.IO.UnmanagedMemoryStream D {
             get {
-                return ResourceManager.GetStream("53", resourceCulture);
+                return ResourceManager.GetStream("D", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _54 {
+        internal static System.IO.UnmanagedMemoryStream E {
             get {
-                return ResourceManager.GetStream("54", resourceCulture);
+                return ResourceManager.GetStream("E", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _55 {
+        internal static System.IO.UnmanagedMemoryStream F {
             get {
-                return ResourceManager.GetStream("55", resourceCulture);
+                return ResourceManager.GetStream("F", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _56 {
+        internal static System.IO.UnmanagedMemoryStream G {
             get {
-                return ResourceManager.GetStream("56", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _57 {
-            get {
-                return ResourceManager.GetStream("57", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _58 {
-            get {
-                return ResourceManager.GetStream("58", resourceCulture);
+                return ResourceManager.GetStream("G", resourceCulture);
             }
         }
     }
