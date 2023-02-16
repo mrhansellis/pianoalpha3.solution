@@ -20,6 +20,7 @@ namespace PianoAlpha3
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// Hi There!!!
     public partial class MainWindow : Window
     {
         public MainWindow()
